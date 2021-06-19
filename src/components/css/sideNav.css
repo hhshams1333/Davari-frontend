@@ -1,0 +1,19 @@
+#sideNav {
+  background-color: #0f8b8d;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  #sideNav {
+    width: auto;
+  }
+}
+.nav-link {
+  color: aliceblue;
+  font-family: iran;
+}
+.nav-link:visited {
+  color: aliceblue;
+}
+.nav-link:hover {
+  color: aquamarine;
+}

@@ -1,13 +1,62 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --main-color: #3bcc9d;
+  --priamry-color: #ec9a29;
+  --secondary-color: #0f8b8d;
+  --border-color: #a8201a;
+  --footer-color: #143642;
+}
+@font-face {
+  font-family: iran;
+  src: url(./fonts/IRANSansWeb_Bold.ttf);
+}
+@font-face {
+  font-family: ira;
+  src: url(./fonts/IRANSansWeb_Light.ttf);
+}
+html,
+body,
+#root {
+  height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-size: 62.5%;
+}
+div,
+label {
+  font-family: ira;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: iran;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.8rem;
+}
+h3 {
+  font-size: 1.6rem;
+}
+h4 {
+  font-size: 1.4rem;
+}
+p {
+  font-family: ira;
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 1200px) {
+  #sideNav {
+    width: 10vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #login {
+    width: 50%;
+  }
 }
